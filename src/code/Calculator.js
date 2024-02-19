@@ -134,6 +134,7 @@ class Calculator extends React.Component{
                 <table>
                     <button className='OperationButton' onClick={this.setOperation.bind(this, "÷")}>÷</button>
                     <button className='NumberButton' onClick={this.addToCurrentNum.bind(this, '0')}>0</button>
+                    <button className='NumberButton' onClick={this.addToCurrentNum.bind(this, '.')}>.</button>
                 </table>
                 <button className='DoOperationButton' onClick={this.doOperation.bind(this)}>Enter</button>
                 <button className='OperationCancelButton' onClick={this.resetState.bind(this)}>C</button>

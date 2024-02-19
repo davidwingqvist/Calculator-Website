@@ -11,7 +11,7 @@
 .NumberButton {
     background-color: rgb(155, 10, 39);
     border: none;
-    padding: 5% 30px;
+    padding: 20px 30px;
     margin: 5px;
     display: inline-block;
     border-radius: 10%;
@@ -32,7 +32,7 @@
 .OperationButton {
     background-color: rgb(53, 191, 191);
     border: none;
-    padding: 5% 30px;
+    padding: 20px 30px;
     margin: 5px;
     display: inline-block;
     border-radius: 10%;
@@ -44,7 +44,7 @@
 .DoOperationButton {
     background-color: rgb(53, 191, 191);
     border: none;
-    padding: 5% 55px;
+    padding: 20px 55px;
     margin: 5px;
     display: inline-block;
     border-radius: 10%;
@@ -74,7 +74,7 @@
 .CalculatorBackground {
     background-color: rgb(21, 17, 88);
     border: none;
-    padding: 2% 10px;
+    padding: 20px 10px;
     border-radius: 5%;
     box-shadow: 5px 5px rgb(12, 10, 59);
 }
@@ -82,7 +82,7 @@
 .OperationCancelButton {
     background-color: rgb(192, 192, 51);
     border: none;
-    padding: 5% 30px;
+    padding: 20px 30px;
     margin: 5px;
     display: inline-block;
     border-radius: 10%;
@@ -103,7 +103,7 @@
 .InputField {
     background-color: gray;
     border-radius: 10px;
-    padding: 10% 22%;
+    padding: 15px 22%;
     margin-bottom: 5px;
     border: none;
     display: flex;
