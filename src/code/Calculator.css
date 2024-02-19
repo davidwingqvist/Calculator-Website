@@ -11,11 +11,13 @@
 .NumberButton {
     background-color: rgb(155, 10, 39);
     border: none;
-    padding: 25px 30px;
+    padding: 5% 30px;
     margin: 5px;
     display: inline-block;
-    border-radius: 48px;
+    border-radius: 10%;
     box-shadow: 5px 5px #140843;
+    font-weight: 900;
+    font-size: large;
 }
 
 .NumberButton:hover {
@@ -23,28 +25,41 @@
 }
 
 .NumberButton:active {
-    transform: translateY(3px);
+    transform: translate3d(3px, 3px, 0px);
     box-shadow: 2px 2px #392222;
 }
 
 .OperationButton {
     background-color: rgb(53, 191, 191);
     border: none;
-    padding: 25px 30px;
+    padding: 5% 30px;
     margin: 5px;
     display: inline-block;
-    border-radius: 48px;
+    border-radius: 10%;
     box-shadow: 5px 5px #140843;
+    font-size: large;
+    font-weight: bold;
 }
 
 .DoOperationButton {
     background-color: rgb(53, 191, 191);
     border: none;
-    padding: 25px 55px;
+    padding: 5% 55px;
     margin: 5px;
     display: inline-block;
-    border-radius: 48px;
+    border-radius: 10%;
     box-shadow: 5px 5px #140843;
+    font-size: large;
+    font-weight: bold;
+}
+
+.DoOperationButton:hover {
+    background-color: rgb(12, 118, 118);
+}
+
+.DoOperationButton:active {
+    transform: translate3d(3px, 3px, 0px);
+    box-shadow: 2px 2px #392222;
 }
 
 .OperationButton:hover {
@@ -52,26 +67,28 @@
 }
 
 .OperationButton:active {
-    transform: translateY(3px);
+    transform: translate3d(3px, 3px, 0px);
     box-shadow: 2px 2px #392222;
 }
 
 .CalculatorBackground {
     background-color: rgb(21, 17, 88);
     border: none;
-    padding: 15px 10px;
-    border-radius: 12px;
+    padding: 2% 10px;
+    border-radius: 5%;
     box-shadow: 5px 5px rgb(12, 10, 59);
 }
 
 .OperationCancelButton {
     background-color: rgb(192, 192, 51);
     border: none;
-    padding: 25px 30px;
+    padding: 5% 30px;
     margin: 5px;
     display: inline-block;
-    border-radius: 48px;
+    border-radius: 10%;
     box-shadow: 5px 5px #140843;
+    font-size: large;
+    font-weight: bold;
 }
 
 .OperationCancelButton:hover {
@@ -79,17 +96,18 @@
 }
 
 .OperationCancelButton:active {
-    transform: translateY(3px);
+    transform: translate3d(3px, 3px, 0px);
     box-shadow: 2px 2px #392222;
 }
 
 .InputField {
     background-color: gray;
     border-radius: 10px;
-    padding: 15px 115px;
+    padding: 10% 22%;
     margin-bottom: 5px;
     border: none;
     display: flex;
     box-shadow: 5px 5px rgb(12, 10, 59);
-    font-size: 15px;
+    font-size: large;
+    font-weight: bold;
 }
